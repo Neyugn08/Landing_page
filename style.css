@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: roboto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header, .content1, .content2, .content3 {
+    flex: 1;
+}
+   
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header, .content1, .footer {
+    background-color: #1F2937;
+}
+
+.hero_text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.logo {
+    margin-left: 80px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.link {
+    margin-right: 80px;
+    display: flex;
+    gap: 8px;
+}
+
+.sec_text, .footer, a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.content1 {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.random_info {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 32px;
+}
+
+.placeholder2 {
+    border-width: 2px;
+    border-color: rgb(12, 104, 202);
+    border-style: solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.placeholder {
+    background-color: gray;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c_action {
+    border: 0px;
+    margin: 0px;
+    color: white;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c_action, button {
+    background-color: #3882F6;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote, .container {
+    margin: 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container {
+    padding: 30px 80px;
+}
+
+.footer {
+    padding: 16px 100px;
+    display: flex;
+    justify-content: center;
+}
