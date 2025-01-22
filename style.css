@@ -10,7 +10,12 @@ body {
 }
 
 .header, .content1, .content2, .content3 {
-    flex: 1;
+    /*flex: 1;*/
+}
+
+.real_header {
+    display: flex;
+    flex-direction: column;
 }
    
 .header {
@@ -141,6 +146,9 @@ button {
 
 .container {
     padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
